@@ -3,7 +3,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
   title: '盘古Saas文档',
-  description: 'Just playing around',
+  description: '盘古Saas文档',
   theme: 'reco',
   themeConfig: {
     style: '@vuepress-reco/style-default',
@@ -29,6 +29,12 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: '学习资源',
           children: [
             'cloud',
+          ]
+        },
+        {
+          text: '关于我',
+          children: [
+            'my',
           ]
         }
       ]
